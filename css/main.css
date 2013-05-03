@@ -62,7 +62,7 @@ textarea {
 
 /* BASICS */
 body{padding-bottom: 40px; background: #232323;}
-#main-wrapper{display: block; max-width: 600px; min-width: 300px; padding:0 20px 0 20px; margin:0 auto;}
+#main-wrapper{display: block; max-width: 700px; min-width: 300px; padding:0 20px 0 20px; margin:0 auto;}
 
 /* TYPO */
 h1{color: #fff;}
@@ -72,7 +72,7 @@ p{font-family: 'Noto Serif', serif; line-height: 28px; color:#222;}
 
 /* POST USERDETAILS */
 .avatar{float: left;}
-.post{margin-left: -40px; padding:40px; background: #fff; border-radius: 8px;}
+.post{margin-left: -40px; padding:40px; background: #fff; border-radius: 8px; margin-bottom: 20px;}
 .user-details{float: left; margin-left:10px;}
 .post-date{padding-top:-10px;}
 
@@ -91,10 +91,15 @@ p{font-family: 'Noto Serif', serif; line-height: 28px; color:#222;}
 .commenter{display:inline-block; margin-right: 5px; margin-top:1px; font-family: arial; font-size:14px; vertical-align: baseline; font-weight: bold;}
 .comment-text{font-family: 'Noto Serif', serif; font-size: 14px; vertical-align: baseline; color:#666; line-height: 18px;}
 
+/* INPUT */
+.new-post{width: 92%; margin-bottom: 20px; border:0px; background-color: #efefef; border-radius: 8px; padding: 20px;}
+
 /* BUTTONS */
 .btn{background-color:#dedede; display:inline-block; padding:0 20px; border-radius: 4px; solid #999; height: 23px; text-decoration: none; color: #fff; font-size: 13px;text-transform: uppercase; padding-top:7px;}
 .btn-wroah:hover{background-color: #158815;}
 .btn-njah:hover{background-color: #a60000;}
+.btn-normal{background-color: #454545;}
+.btn-secondary{background-color: #ababab;}
 
 /* MOBIELE UITZONDERINGEN */
 @media screen and (max-width: 500px) {
