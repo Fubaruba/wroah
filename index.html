@@ -15,6 +15,25 @@
         <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <!-- FONTELLO -->
+        <link rel="stylesheet" href="css/fontello.css">
+            <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]>
+            <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+            <script>
+              function toggleCodes(on) {
+                var obj = document.getElementById('icons');
+                
+                if (on) {
+                  obj.className += ' codesOn';
+                } else {
+                  obj.className = obj.className.replace(' codesOn', '');
+                }
+              }
+              
+            </script>
+            <!-- EINDE FONTELLO -->
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -28,7 +47,7 @@
                 <form action="#submit">
                   <textarea rows="2" class="new-post"></textarea><br>
                   <a href="#submit" class="btn btn-normal">Wroah!</a>
-                  <a href="#pic-upload" class="btn btn-secondary">pic</a>
+                  <a href="#pic-upload" class="btn btn-secondary"><i class"icon-picture"></i></a>
                 </form>
             </div>
 

@@ -61,7 +61,7 @@ textarea {
    ========================================================================== */
 
 /* BASICS */
-body{padding-bottom: 40px; background: #232323;}
+body{padding-bottom: 40px; background: #003333;}
 #main-wrapper{display: block; max-width: 700px; min-width: 300px; padding:0 20px 0 20px; margin:0 auto;}
 
 /* TYPO */
@@ -72,7 +72,7 @@ p{font-family: 'Noto Serif', serif; line-height: 28px; color:#222;}
 
 /* POST USERDETAILS */
 .avatar{float: left;}
-.post{margin-left: -40px; padding:40px; background: #fff; border-radius: 8px; margin-bottom: 20px;}
+.post{margin-left: -40px; padding:40px; background: #fff; border-radius: 5px; margin-bottom: 20px;}
 .user-details{float: left; margin-left:10px;}
 .post-date{padding-top:-10px;}
 
@@ -98,7 +98,7 @@ p{font-family: 'Noto Serif', serif; line-height: 28px; color:#222;}
 .btn{background-color:#dedede; display:inline-block; padding:0 20px; border-radius: 4px; solid #999; height: 23px; text-decoration: none; color: #fff; font-size: 13px;text-transform: uppercase; padding-top:7px;}
 .btn-wroah:hover{background-color: #158815;}
 .btn-njah:hover{background-color: #a60000;}
-.btn-normal{background-color: #454545;}
+.btn-normal{background-color: #003333;}
 .btn-secondary{background-color: #ababab;}
 
 /* MOBIELE UITZONDERINGEN */
